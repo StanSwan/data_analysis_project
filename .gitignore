@@ -1,0 +1,51 @@
+# Виртуальное окружение
+venv/
+env/
+.env
+*.pyenv
+
+# Файлы Jupyter Notebook (временные)
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyd
+*.pyo
+*.so
+
+# Данные
+*.csv
+*.xlsx
+*.xls
+*.db
+*.sqlite
+
+# Временные файлы
+*.log
+*.bak
+*.swp
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Конфиденциальные данные
+.env
+**/secrets.py
+**/config.py
+**/credentials.py
+
+# IDE
+.vscode/
+.idea/
+*.iml
+.project
+.pydevproject
+.settings/
+
+# Jupyter Notebook
+*.ipynb - проверь, что сам ноутбук не добавлен сюда! 
+# Мы не игнорируем .ipynb, так как это основной файл проекта
